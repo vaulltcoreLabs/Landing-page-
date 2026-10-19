@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080a0e;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.liquid-silver-surface {
+  background: linear-gradient(145deg, #ffffff 0%, #eef1f6 52%, #e2e6ef 100%);
+}
+
+.liquid-silver-panel {
+  background: linear-gradient(180deg, #fafbfc 0%, #eceff5 100%);
+}
+
+.dark-obsidian-surface {
+  background: linear-gradient(145deg, #12151f 0%, #0d1017 52%, #080a0e 100%);
+}
+
+.dark-obsidian-panel {
+  background: linear-gradient(180deg, #111520 0%, #0a0c12 100%);
+}
+
+.metallic-purple-cta {
+  background: linear-gradient(135deg, #3b0764 0%, #2e1065 55%, #1e0942 100%);
+}
+
+.metallic-purple-glow {
+  box-shadow: 0 0 35px rgba(147, 51, 234, 0.2);
+}
+
+/* Custom scrollbar for terminals */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c10;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2536;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #333f5c;
+}

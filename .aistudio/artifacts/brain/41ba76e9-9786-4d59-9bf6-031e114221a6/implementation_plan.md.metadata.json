@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan to upgrade the Fleet Dispatcher into a real-time, single-draw-call InstancedMesh 3D WebGL simulation with autonomous job fan-out, packet routing beams, interactive chaos failure injection, live token rotation, and a real-time FPS/frame-time telemetry HUD.",
+  "updatedAt": "2026-10-18T19:42:05.381542727Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

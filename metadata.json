@@ -1,0 +1,6 @@
+{
+  "name": "VaultCore AI — Autonomous Software Engineering",
+  "description": "High-speed autonomous software engineering orchestrator dispatching zero-trust commands, AST code quality gates, and sub-millisecond task automation across distributed server environments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
